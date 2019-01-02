@@ -1,20 +1,44 @@
 # Classic Arcade Game Clone Project
 
-## Table of Contents
+In this game you have a Player and Enemies (bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. You will win the game if you score 10.
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+### How to Run
 
-## Instructions
+* Download the `ZIP` file and open the index.html file
+* or clone the project `git clone https://github.com/khaled-ansary/Memory-Puzzle-Game.git`
+* You can even Live Preview the project [here](https://khaled-ansary.github.io/Memory-Puzzle-Game/)
+  
+### How to play
+  
+* Press 'enter' to start the game
+* Use arrow respective keys to move the player left, right, up and down
+* The score will increase by 1 when the player reaches the water
+* The score will decrease by 1 when the player collides with an enemy
+* The player will win the game if the score will be 10
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+### Game Features:
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+* The player can move left, right, up and down
+* The enemies move at varying speeds on the paved block portion of the game board
+* Once a the player collides with an enemy, the game is reset, the player moves back to the starting square and score down by 1
+* Once the player reaches the water (i.e., the top of the game board), score will increase by 1
+* A timer will start when the game start and display the total time needed to win the game
+* If the score is total ten (10), the Player can win the game
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+### Used Technologies and Tools
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* HTML5
+* CSS
+* JavaScript 
+* Visual Studio Code
+* HTML5 Canvas API
+  
+### Dependencies:
 
-## Contributing
+### License
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+The MIT License
+
+Copyright (c) Md Khaled Hossain Ansary
+
+[License](LICENSE.md)
