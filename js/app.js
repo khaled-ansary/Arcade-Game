@@ -50,7 +50,7 @@ class Enemy{
         if (score >= MAX_SCORE) {
             ctx.fillStyle = "green";
             ctx.font = "20px Comic Sans MS";
-            ctx.fillText(`You win the Game Score: ${score}`, 141, 200);
+            ctx.fillText(`You win the Game with Score: ${score}`, 141, 200);
             ctx.fillText(`time takes: ${timeModel.min} mins ${timeModel.sec} sec` , 141, 225);
             canvas.clearTimer();
             timeModel.isStop = true;   
