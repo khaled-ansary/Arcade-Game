@@ -6,7 +6,7 @@ In this game you have a Player and Enemies (bugs). The goal of the player is to 
 
 * Download the `ZIP` file and open the index.html file
 * or clone the project `git clone https://github.com/khaled-ansary/Memory-Puzzle-Game.git`
-* You can even Live Preview the project [here](https://khaled-ansary.github.io/Memory-Puzzle-Game/)
+* You can even Live Preview the project [here](https://khaled-ansary.github.io/Arcade-Game/)
   
 ### How to play
   
